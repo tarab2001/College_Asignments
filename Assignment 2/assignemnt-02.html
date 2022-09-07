@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+        
+       
+        /*I used w3Schools to help me with this assignment*/
+        .center{ /*center circle*/
+            border-radius: 50%;
+            background-color: black;
+            position: fixed;
+            border: none;
+            top: 50%;
+            left:50%;
+            margin-top:-2.5cm;
+            margin-left:-2.5cm;
+            width: 5cm;
+            height: 5cm;
+        }
+        .lefttop {/*left top circle*/
+            border-radius: 50%;
+            background-color: black;
+            width:3cm;
+            height:3cm;
+            position: fixed;
+            top: 35%;
+            left: 42%;
+            margin-top: -1.5cm;
+            margin-left: -1.5cm;
+        }
+        .gre{/*green circle*/
+            border-radius: 50%;
+            background-color: green;
+            width:2.5cm;
+            height: 2.5cm;
+            position: fixed;
+            top: 35%;
+            left: 42%; 
+            margin-top: -1.25cm;
+            margin-left: -1.25cm;
+            cursor:pointer;
+        }
+        .leftbottom{ /*left bottom circle*/
+            border-radius: 50%;
+            background-color: black;
+            width: 3cm;
+            height:3cm;
+
+            position: fixed;
+            top: 65%;
+            left: 42%;
+            margin-top: -1.5cm;
+            margin-left: -1.5cm;
+        }
+        .yel{/*yellow circle*/
+            border-radius: 50%;
+            background-color: yellow;
+            width:2.5cm;
+            height: 2.5cm;
+            position: fixed;
+            top: 65%;
+            left: 42%; 
+            margin-top: -1.25cm;
+            margin-left: -1.25cm;
+            cursor:pointer;
+        }
+        .righttop{ /*right top circle*/
+            border-radius: 50%;
+            background-color: black;
+            width: 3cm;
+            height:3cm;
+            position: fixed;
+            top: 35%;
+            left: 58%;
+            margin-top: -1.5cm;
+            margin-left: -1.5cm;
+        }
+        .red{/*red circle*/
+            border-radius: 50%;
+            background-color: red;
+            width:2.5cm;
+            height: 2.5cm;
+            position: fixed;
+            top: 35%;
+            left: 58%; 
+            margin-top: -1.25cm;
+            margin-left: -1.25cm;
+            cursor:pointer;
+        }
+        .rightbottom{ /*right bottom circle*/
+            border-radius: 50%;
+            background-color: black;
+            width: 3cm;
+            height:3cm;
+            position: fixed;
+            top: 65%;
+            left: 58%;
+            margin-top: -1.5cm;
+            margin-left: -1.5cm;
+        }
+        .blu{/*blue circle*/
+            border-radius: 50%;
+            background-color: blue;
+            width:2.5cm;
+            height: 2.5cm;
+            position: fixed;
+            top: 65%;
+            left: 58%; 
+            margin-top: -1.25cm;
+            margin-left: -1.25cm;
+            cursor:pointer;
+        }
+        #start{/*start button*/
+            background-color: grey;
+            width:2cm;
+            height:.5cm;
+            top:53%;
+            left:48%;
+            margin-top: -1cm;
+            margin-left: -.25cm;
+            position: fixed;
+            border: 2px solid grey;
+            border-radius: 8px;
+            color: black;
+            font-family: 'Orbitron';
+            text-align: center;
+            font-size: 10px;
+            cursor:pointer;
+        }
+        .score{/*score to right of start button*/
+            background-color: grey;
+            width: .5cm;
+            height: .5cm;
+            top:48%;
+            left: 54%;
+            margin-top: -.25cm;;
+            margin-left: -.25cm;;
+            position: fixed;
+            border: 2px solid grey;
+            border-radius: 8px;
+            color: black;
+            font-family: 'Orbitron';
+            text-align: center;
+            font-size: 10px;
+        }
+        .highscore{/*score to left of start button*/
+            background-color: grey;
+            width:.5cm;
+            height:.5cm;
+            top:48%;
+            left: 46%;
+            margin-top: -.25cm;
+            margin-left: -.25cm;
+            position: fixed;
+            border: 2px solid grey;
+            border-radius: 8px;
+            color: black;
+            font-family: 'Orbitron';
+            text-align: center;
+            font-size: 10px;
+        }
+        #onOff{/*red/green button*/
+            background-color: red;
+            border-radius: 50%;
+            height: .25cm;
+            width: .25cm;
+            position: fixed;
+            top:52%;
+            left:50%;
+            margin-top: -.125cm;
+            margin-left: -.125cm;
+        }
+        .flashEle{ /*flash element when called*/
+            animation: flash 1.0s;
+        }
+        @keyframes flash{
+            0%{
+                opacity: 0;
+            }
+            100%{
+                opacity: 1;
+            }
+        }
+
+    </style>
+<body>
+    <div class = "center"> <!--class for center circle-->
+        <button id = "start" onclick="onLight()"><strong>START</strong></button> <!--start button-->
+        <div class = "highscore"><strong>00</strong></div><!--highscore-->
+        <div class = "score"><strong>00</strong></div><!--score-->
+        <div id = "onOff"></div>
+    </div>
+    <div class = "lefttop" ><!--class for left top black circl-->
+        <div type = "button" class = "btn gre" id = "green" onclick="addTouserArr(this.id)"></div><!--green button when clicked calls method-->
+    </div>
+    <div class= "leftbottom"><!--clas for left bottom black circle-->
+        <div type = "button"  class = "btn yel" id="yellow" onclick="addTouserArr(this.id)"></div><!--yellow button when clicked calls method-->
+    </div>
+    <div class= "righttop"><!--class for righttop black circle-->
+        <div type = "button"  class = "btn red" id="red" onclick="addTouserArr(this.id)"></div><!--red button when clicked calls method-->
+    </div>
+    <div class= "rightbottom"><!--class for rightbottom black circle-->
+        <div type = "button" class = "btn blu" id="blue" onclick="addTouserArr(this.id)"></div><!--blue button when clicked calls method-->
+    </div>
+    
+
+
+</body>
+<script>
+    const score = document.querySelector('.score');//score button
+    const highscore = document.querySelector('.highscore');//high score cutton
+    let cols = ["red", "blue", "green", "yellow"];//array with possible colours
+    let seqArr = [];//array to store sequence
+    let userArr = [];//array to stire what user clicks
+    let level = 0;//level counter
+
+    //turn light green and start game
+    function onLight(){
+        document.getElementById("onOff").style.backgroundColor = "green";
+        score.textContent = '00';
+        setTimeout(function (){
+            nextSeq();
+        },3000)//show sequence 3 seconds after click
+    }
+    //get sequence to show
+    function nextSeq(){
+        userArr = [];
+        level ++;
+        score.textContent = level;
+        var ranNum = Math.floor(Math.random() * 4); //get random number
+        var ranCol = cols[ranNum];//get colour thats in this number index
+        seqArr.push(ranCol);//add to sequence array
+        for(var i = 0; i < seqArr.length; i++)//see what colour to flash
+        {
+            if(seqArr[i] === 'green'){
+                setTimeout(function() {
+                    flashGreen()
+                },1000);
+            }
+            else if(seqArr[i] === 'red'){
+                setTimeout(function() {
+                    flashRed()
+                },1200);
+            }
+            else if(seqArr[i] === 'yellow'){
+                setTimeout(function() {
+                    flashYellow()
+                },1400);
+            }
+            else if(seqArr[i] === 'blue'){
+                setTimeout(function() {
+                    flashBlue()
+                },1600);
+            }  
+        }
+        setTimeout(function() {//call function after 5 seconds
+            checkAns();
+        },5000); 
+    }
+
+    function addTouserArr(id){//add to user array when clicked
+        userArr.push(id);
+        
+        
+    }
+
+    function userInput(){//see what colour is clicked
+        green.addEventListener("click", function() {
+            userArr.push("green");
+        });
+        red.addEventListener("click", function() {
+            userArr.push("red");
+        });
+        yellow.addEventListener("click", function() {
+            userArr.push("yellow");
+        });
+        blue.addEventListener("click", function() {
+            userArr.push("blue");
+        });
+        setTimeout(function() {
+            checkAns();
+        },5000); //calls method after 5 seconds
+
+    }
+    
+
+    //check if user ans correct
+    function checkAns(){       
+            var i =0;
+            var correctSeq = false;
+            while(i<seqArr.length){//check if sequence same
+                if(userArr[i] === seqArr[i]){ //if elements same
+                    i++; //incrmeent i
+                    correctSeq = true; //set to true
+                }
+                else{
+                    correctSeq = false; //set to false and leave loop
+                    break;
+                }
+            }
+            if(correctSeq && seqArr.length === userArr.length){ //if arrays same and length same
+                setTimeout(function () {
+                    nextSeq(); //shows next seq
+                },1000);
+            }
+        else{ //if fail pulse colours 5 times 
+            pulse(function () {flashRed(),flashBlue(),flashGreen(),flashYellow()}, 1000,5);
+            if(level > highscore){ //set highscore
+                highscore.textContent = level;
+            }
+            startOver(); //call method to restart
+        }
+    }
+    //retart game
+    function startOver(){
+        level = 0;
+        score.textContent = level;
+        seqArr = [];
+        //switch button back red
+        document.getElementById("onOff").style.backgroundColor = "red";
+    }
+
+
+    //pulse colours **this code is taken from code sheared by John
+    function pulse(cbfunc,delay,reps){
+        let r =0;
+        let intervalID = window.setInterval(function (){
+            cbfunc();
+            if(++r === reps){
+                window.clearInterval(intervalID);
+            }
+        },delay)
+    }
+    //flash element **this code is taken from code sheared by John
+    function flash(e){ 
+        var myflash = e;
+        myflash.classList.remove("flashEle");
+        void myflash.offsetWidth;
+        myflash.classList.add("flashEle");
+    }
+    //**this code is based on code sheared by John
+    function flashRed(){ //flash red button when clicked
+        let button = document.getElementById("red");
+        flash(button);
+    }
+    function flashYellow(){ //flash yellow when clicked
+        let button = document.getElementById("yellow");
+       flash(button);
+    }
+    function flashBlue(){ //flash blue when clicked
+        let button = document.getElementById("blue");
+       flash(button);
+    }
+    function flashGreen(){ //flash yellow when clicked
+        let button = document.getElementById("green");
+       flash(button);
+    }
+
+    //send colours into flash method **this code is taken from code sheared by John
+    var buttonR = document.getElementById("red");
+    buttonR.addEventListener("click",function() {flash(this);});
+    var buttonY = document.getElementById("yellow");
+    buttonY.addEventListener("click",function() {flash(this);});
+    var buttonB = document.getElementById("blue");
+    buttonB.addEventListener("click",function() {flash(this);});
+    var buttonG = document.getElementById("green");
+    buttonG.addEventListener("click",function() {flash(this);});
+    
+
+    
+
+</script>
+</html>
+
