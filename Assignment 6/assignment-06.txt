@@ -1,0 +1,254 @@
+CustDets Table
+[{
+  "_id": {
+    "$oid": "60770e3d6a358e3c83fd2df7"
+  },
+  "fname": "Anna",
+  "email": "anna.blog@gmail.com",
+  "lname": "Bloggs",
+  "mobile": "0871237659",
+  "title": "Mrs",
+  "address": {
+    "AddresLine1": "5 The Green,",
+    "AddressLine2": "Temple Mills",
+    "Town": "Celbridge",
+    "cityOrCounty": "Kildare",
+    "Eircode": "W23T5H7"
+  },
+  "ShipAdd": {
+    "shipLine1": "5 The Green",
+    "shipLine2": "Temple Mills",
+    "Town": "Celbridge",
+    "cityOrCounty": "Kildare",
+    "Eircode": "W23T5H7"
+  }
+},{
+  "_id": {
+    "$oid": "60770ebfd458783898bb7676"
+  },
+  "fname": "John",
+  "email": "johnoconnor@gmail.com",
+  "lname": "O'Connor",
+  "mobile": "0891254789",
+  "title": "Mr",
+  "address": {
+    "AddressLine1": "21 The Lawns",
+    "AddressLine2": "Oldtown Court",
+    "Town": "Maynooth",
+    "cityOrCounty": "Kildare",
+    "Eircode": "W45TH7"
+  },
+  "ShipAdd": {
+    "shipLine1": "21 The Lawns",
+    "shipLine2": "Oldtown Court",
+    "Town": "Maynooth",
+    "cityOrCounty": "Kildare",
+    "Eircode": "W45TH7"
+  }
+},{
+  "_id": {
+    "$oid": "60770ecbd458783898bb7677"
+  },
+  "fname": "Tara",
+  "email": "taracuffe@gmail.com",
+  "lname": "Cuffe",
+  "mobile": "0875612389",
+  "title": "Mrs",
+  "address": {
+    "AddressLine1": "Lenna Lodge",
+    "AddressLine2": "",
+    "Town": "Dundalk",
+    "cityOrCounty": "Louth",
+    "Eircode": "T67U9K7"
+  },
+  "shipAdd": {
+    "shipLine1": "Lenna Lodge",
+    "shipLine2": "",
+    "Town": "Dundalk",
+    "cityOrCounty": "Louth",
+    "Eircode": "T67U9K7"
+  }
+},{
+  "_id": {
+    "$oid": "6092c194f8680d25f829972b"
+  },
+  "title": "Mrs",
+  "fname": "Alondra",
+  "lname": "Dunne",
+  "email": "alondra.dunne@gmail.com",
+  "mobile": "0891234567",
+  "address": {
+    "AddressLine1": "23 Mayo Rd.",
+    "AddressLine2": "Riverside",
+    "Town": "Tipperary town",
+    "cityOrCounty": "Tipperary",
+    "Eircode": "RT67UJ9"
+  },
+  "ShipAdd": {
+    "ShipLine1": "23 Mayo Rd.",
+    "ShipLine2": "Riverside",
+    "Town": "Tipperary town",
+    "cityOrCounty": "Tipperary",
+    "Eircode": "RT67UJ9"
+  }
+},{
+  "_id": {
+    "$oid": "6092c194f8680d25f829972c"
+  },
+  "title": "Dr",
+  "fname": "Iarlaith",
+  "lname": "Kelly",
+  "email": "iarlaith.kelly@fuchsiamail.ie",
+  "mobile": "0843977120",
+  "address": {
+    "AddressLine1": "56 Moyglare Avenue",
+    "AddressLine2": "Yellow Road",
+    "Town": "Portumna",
+    "cityOrCounty": "Galway",
+    "Eircode": "GH67U99"
+  },
+  "ShipAdd": {
+    "ShipLine1": "56 Moyglare Avenue",
+    "ShipLine2": "Yellow Road",
+    "Town": "Portumna",
+    "cityOrCounty": "Galway",
+    "Eircode": "GH67U99"
+  }
+},{
+  "_id": {
+    "$oid": "6092c194f8680d25f829972d"
+  },
+  "title": "Mrs",
+  "fname": "Brigid",
+  "lname": "Flynn",
+  "email": "brigid.flynn@silvermail.ie",
+  "mobile": "0844020733",
+  "address": {
+    "AddressLine1": "Castletown House",
+    "AddressLine2": "",
+    "Town": "Celbridge",
+    "cityOrCounty": "Kildare",
+    "Eircode": "W45TH7"
+  },
+  "ShipAdd": {
+    "ShipLine1": "Castletown House",
+    "ShipLine2": "",
+    "Town": "Celbridge",
+    "cityOrCounty": "Kildare",
+    "Eircode": "W45TH7"
+  }
+},{
+  "_id": {
+    "$oid": "6092c237f8e84f5954b4e99b"
+  },
+  "title": "Mrs",
+  "fname": "Alondra",
+  "lname": "Dunne",
+  "email": "alondra.dunne@gmail.com",
+  "mobile": "0891234567",
+  "address": {
+    "AddressLine1": "23 Mayo Rd.",
+    "AddressLine2": "Riverside",
+    "Town": "Tipperary town",
+    "cityOrCounty": "Tipperary",
+    "Eircode": "RT67UJ9"
+  },
+  "ShipAdd": {
+    "ShipLine1": "23 Mayo Rd.",
+    "ShipLine2": "Riverside",
+    "Town": "Tipperary town",
+    "cityOrCounty": "Tipperary",
+    "Eircode": "RT67UJ9"
+  }
+},{
+  "_id": {
+    "$oid": "6092c237f8e84f5954b4e99c"
+  },
+  "title": "Dr",
+  "fname": "Iarlaith",
+  "lname": "Kelly",
+  "email": "iarlaith.kelly@fuchsiamail.ie",
+  "mobile": "0843977120",
+  "address": {
+    "AddressLine1": "56 Moyglare Avenue",
+    "AddressLine2": "Yellow Road",
+    "Town": "Portumna",
+    "cityOrCounty": "Galway",
+    "Eircode": "GH67U99"
+  },
+  "ShipAdd": {
+    "ShipLine1": "56 Moyglare Avenue",
+    "ShipLine2": "Yellow Road",
+    "Town": "Portumna",
+    "cityOrCounty": "Galway",
+    "Eircode": "GH67U99"
+  }
+},{
+  "_id": {
+    "$oid": "6092c237f8e84f5954b4e99d"
+  },
+  "title": "Mrs",
+  "fname": "Brigid",
+  "lname": "Flynn",
+  "email": "brigid.flynn@silvermail.ie",
+  "mobile": "0844020733",
+  "address": {
+    "AddressLine1": "Castletown House",
+    "AddressLine2": "",
+    "Town": "Celbridge",
+    "cityOrCounty": "Kildare",
+    "Eircode": "W45TH7"
+  },
+  "ShipAdd": {
+    "ShipLine1": "Castletown House",
+    "ShipLine2": "",
+    "Town": "Celbridge",
+    "cityOrCounty": "Kildare",
+    "Eircode": "W45TH7"
+  }
+}]
+
+OrderDets Table
+[{
+  "_id": {
+    "$oid": "60771e236a358e3c83fd2dfb"
+  },
+  "phone_id": "60771fa56a358e3c83fd2dfc",
+  "user_id": "60770e3d6a358e3c83fd2df7"
+},{
+  "_id": {
+    "$oid": "607720e9d458783898bb767b"
+  },
+  "phone_id": "60771fe4d458783898bb7679",
+  "user_id": "60770e3d6a358e3c83fd2df7"
+},{
+  "_id": {
+    "$oid": "607720ecd458783898bb767c"
+  },
+  "phone_id": "60771fa56a358e3c83fd2dfc",
+  "user_id": "60770ebfd458783898bb7676"
+}]
+
+PhoneDets Table
+[{
+  "_id": {
+    "$oid": "60771fa56a358e3c83fd2dfc"
+  },
+  "manufactuer": "Apple",
+  "model": "IPhone XS",
+  "price": "799.99"
+},{
+  "_id": {
+    "$oid": "60771fe4d458783898bb7679"
+  },
+  "manufactuer": "Samsung",
+  "model": "Samsung Galaxy S21",
+  "price": "299.99"
+},{
+  "_id": {
+    "$oid": "60771fe8d458783898bb767a"
+  },
+  "manufactuer": "Nokia",
+  "model": "5310",
+  "price": "49.99"
+}]
