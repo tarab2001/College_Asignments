@@ -1,0 +1,16 @@
+C:\Users\tarab\CS264_Exam\Memento\obj\Debug\net5.0\Memento.csproj.AssemblyReference.cache
+C:\Users\tarab\CS264_Exam\Memento\obj\Debug\net5.0\Memento.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tarab\CS264_Exam\Memento\obj\Debug\net5.0\Memento.AssemblyInfoInputs.cache
+C:\Users\tarab\CS264_Exam\Memento\obj\Debug\net5.0\Memento.AssemblyInfo.cs
+C:\Users\tarab\CS264_Exam\Memento\obj\Debug\net5.0\Memento.csproj.CoreCompileInputs.cache
+C:\Users\tarab\CS264_Exam\Memento\bin\Debug\net5.0\Memento.exe
+C:\Users\tarab\CS264_Exam\Memento\bin\Debug\net5.0\Memento.deps.json
+C:\Users\tarab\CS264_Exam\Memento\bin\Debug\net5.0\Memento.runtimeconfig.json
+C:\Users\tarab\CS264_Exam\Memento\bin\Debug\net5.0\Memento.runtimeconfig.dev.json
+C:\Users\tarab\CS264_Exam\Memento\bin\Debug\net5.0\Memento.dll
+C:\Users\tarab\CS264_Exam\Memento\bin\Debug\net5.0\ref\Memento.dll
+C:\Users\tarab\CS264_Exam\Memento\bin\Debug\net5.0\Memento.pdb
+C:\Users\tarab\CS264_Exam\Memento\obj\Debug\net5.0\Memento.dll
+C:\Users\tarab\CS264_Exam\Memento\obj\Debug\net5.0\ref\Memento.dll
+C:\Users\tarab\CS264_Exam\Memento\obj\Debug\net5.0\Memento.pdb
+C:\Users\tarab\CS264_Exam\Memento\obj\Debug\net5.0\Memento.genruntimeconfig.cache
