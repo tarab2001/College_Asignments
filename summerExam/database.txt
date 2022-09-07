@@ -1,0 +1,181 @@
+physio collection
+[{
+  "_id": {
+    "$oid": "609ce7e67761862ab003f698"
+  },
+  "email": "david.sweeney@hotmail.co.uk",
+  "fname": "David",
+  "homePhone": "0162789345",
+  "lname": "McSweeney",
+  "mobile": "0834581290",
+  "title": "Mr",
+  "ERICODE": "T78JI4",
+  "cityOrCounty": "Dublin 22",
+  "line1": "Unit 6",
+  "line2": "Main Street",
+  "town": "Clondalkin"
+},{
+  "_id": {
+    "$oid": "609ce92ced6d5e21a42e4ac3"
+  },
+  "email": "emily.marsh@gmail.com",
+  "fname": "Emily",
+  "homePhone": "016482398",
+  "lname": "Marsh",
+  "mobile": "0892358919",
+  "title": "Mrs",
+  "EIRCODE": "J23O94",
+  "cityOrCounty": "Dublin 15",
+  "line1": "57 Elton Avenue",
+  "line2": "",
+  "town": "Swords"
+},{
+  "_id": {
+    "$oid": "609d2929ed6d5e21a42e4ac8"
+  },
+  "email": "armold.trent99@gmail.com",
+  "fname": "Trent",
+  "homePhone": "01568214",
+  "lname": "Arnold",
+  "mobile": "0861248943",
+  "title": "Mr",
+  "EIRCODE": "P90RT3",
+  "cityOrCounty": "Dublin 7",
+  "line1": "Unit 8",
+  "line2": "Cabra Industrial Estate",
+  "town": "Cabra"
+}]
+
+client collection
+[{
+  "_id": {
+    "$oid": "609ce5127761862ab003f697"
+  },
+  "DOB": "31/01/2001",
+  "dateofrecord": "23/02/2021",
+  "doctor": "Dr. Cliona Ryan",
+  "email": "tarabyrne.99@gmail.com",
+  "fname": "Tara",
+  "homePhone": "01628456239",
+  "leavemessage": "Y",
+  "lname": "Byrne",
+  "mobile": "0876931557",
+  "referredBy": "friend",
+  "title": "Ms",
+  "EIRCODE": "W23W67U9",
+  "cityOrCounty": "Kildare",
+  "line1": "5 The Green",
+  "line2": "Wolstan Mills",
+  "town": "Celbridge",
+  "parentOrGaurdian": "N/A"
+},{
+  "_id": {
+    "$oid": "609ce727ed6d5e21a42e4ac1"
+  },
+  "DOB": "06/01/1987",
+  "dateofrecord": "15/11/2020",
+  "doctor": "Dr. Matthew Spears",
+  "email": "max.cuffe87@gmail.com",
+  "fname": "Max",
+  "homePhone": "016279895",
+  "leavemessage": "Y",
+  "lname": "Cuffe",
+  "mobile": "0892341568",
+  "referredBy": "Simon Harris",
+  "title": "Mr",
+  "EIRCODE": "W34TH67",
+  "cityOrCOunty": "Kildare",
+  "line1": "23 The Lawns",
+  "line2": "Oldtwon Manor",
+  "town": "Clane",
+  "parentOrGaurdian": "N/A"
+},{
+  "_id": {
+    "$oid": "609ce7d3ed6d5e21a42e4ac2"
+  },
+  "DOB": "15/10/2005",
+  "dateofrecord": "12/04/2019",
+  "doctor": "Dr. Sarah Healy",
+  "email": "rhysoreilly999@gmail.com",
+  "fname": "Rhys",
+  "homePhone": "012349875",
+  "leavemessage": "Y",
+  "lname": "O'Reilly",
+  "mobile": "087195834",
+  "referredBy": "Tara Byrne",
+  "title": "Mr",
+  "EIRCODE": "W45TH71",
+  "cityOrCounty": "Kildare",
+  "line1": "Appartment 6",
+  "line2": "Hazelhatch Appartments",
+  "town": "Maynooth",
+  "parentOrGaurdian": "Joanna O'Reilly"
+}]
+
+session Collection
+[{
+  "_id": {
+    "$oid": "609ce9457761862ab003f69a"
+  },
+  "fee": "€60",
+  "sessionDate": "18/03/2021",
+  "sessionNum": "1",
+  "sessionTime": "15:00",
+  "type": "assesment",
+  "notes": "Presenting with lower back pain, streches given to try relieve pain",
+  "duration": "30",
+  "clientId": "609ce5127761862ab003f697",
+  "physioId": "609ce7e67761862ab003f698"
+},{
+  "_id": {
+    "$oid": "609cea28ed6d5e21a42e4ac4"
+  },
+  "fee": "90",
+  "sessionDate": "13/05/2021",
+  "sessionNum": "1",
+  "sessionTime": "13:15",
+  "type": "Other: Spinal Decompression",
+  "notes": "Lower back pain, recommened 6 week course of decompresions",
+  "duration": "60",
+  "clientId": "609ce7d3ed6d5e21a42e4ac2",
+  "physioId": "609d2929ed6d5e21a42e4ac8"
+},{
+  "_id": {
+    "$oid": "609d26b2ed6d5e21a42e4ac5"
+  },
+  "fee": "N/A",
+  "sessionDate": "24/03/2021",
+  "sessionNum": "1",
+  "sessionTime": "11:00",
+  "type": "assesment",
+  "notes": "Didn't show up",
+  "duration": "Cancellation",
+  "physioId": "609ce7e67761862ab003f698",
+  "clientId": "609ce727ed6d5e21a42e4ac1"
+},{
+  "_id": {
+    "$oid": "609d27a2ed6d5e21a42e4ac6"
+  },
+  "fee": "€60",
+  "sessionDate": "25/03/2021",
+  "sessionNum": "2",
+  "sessionTime": "15:00",
+  "type": "streching and exercising",
+  "notes": "Good session client improving, exercies given, told to stop if agrivating pain",
+  "duration": "30",
+  "clientId": "609ce5127761862ab003f697",
+  "physioId": "609ce7e67761862ab003f698"
+},{
+  "_id": {
+    "$oid": "609d2845ed6d5e21a42e4ac7"
+  },
+  "fee": "90",
+  "sessionDate": "20/05/2021",
+  "sessionNum": "2",
+  "sessionTime": "13:15",
+  "type": "Other: Spinal Decompression",
+  "notes": "decrompressions giving relieve happy to continue",
+  "duration": "60",
+  "physioId": "609d2929ed6d5e21a42e4ac8",
+  "clientId": "609ce7d3ed6d5e21a42e4ac2"
+}]
